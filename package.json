@@ -1,0 +1,16 @@
+{
+  "name": "promisize",
+  "version": "0.1.0",
+  "description": "Adapt event-driven APIs to Promises",
+  "main": "index.js",
+  "repository": "https://github.com/rektdeckard/promisize.git",
+  "author": "rektdeckard <friedtm@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "http-server ./example"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

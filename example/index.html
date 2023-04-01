@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Traditional, sync, event-driven</h1>
+      <button id="ping">PING</button>
+      <pre id="sync-log"></pre>
+    </div>
+    <hr />
+    <div>
+      <h1>Async wrapped</h1>
+      <form id="form" method="post">
+        <input name="num" type="number" value="41" />
+        <button type="submit">DOUBLE</button>
+      </form>
+      <pre id="async-log"></pre>
+    </div>
+  </body>
+  <script type="module" src="./index.js"></script>
+</html>
